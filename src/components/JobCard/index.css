@@ -1,0 +1,110 @@
+.job-card-container {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.job-card-container li {
+  list-style-type: none;
+}
+
+.company-logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  height: 8vh;
+}
+
+.img-container {
+  margin-top: 18px;
+  padding: 12px;
+}
+
+.company-logo {
+  border-radius: 5px;
+  margin-right: 5px;
+  padding-bottom: 10px;
+  height: 70px;
+  width: auto;
+}
+
+.role-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.role {
+  font-weight: bold;
+  margin: 0;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 30px;
+}
+
+.icon {
+  font-size: 12px;
+}
+
+.rating {
+  padding-left: 0px;
+  margin-left: 0px;
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  .rating {
+    padding-top: 20px;
+  }
+}
+
+.icon-gold {
+  color: #f5c518;
+}
+
+.location-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.only-logos-container {
+  display: flex;
+  gap: 15px;
+}
+
+.lpa {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.line-jobcard {
+  border: 0.8px solid #555;
+  width: 100%;
+}
+
+.Description {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.d-head {
+  margin: 0px;
+  font-size: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
